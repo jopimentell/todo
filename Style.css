@@ -1,0 +1,25 @@
+/* Limita a largura do container principal para não ficar gigante em telas grandes */
+.max-w-custom {
+    max-width: 600px;
+}
+
+
+/* Faz o cursor virar "mãozinha" ao passar sobre os labels dos checkboxes */
+.form-check-label {
+    cursor: pointer;
+}
+
+
+/* Exemplo de classe para quando o item for marcado (riscado) */
+.item-concluido {
+    text-decoration: line-through;
+    color: #6c757d; /* cor cinza do bootstrap */
+}
+
+
+/* Um pequeno ajuste no checkbox para ficar um pouco maior */
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
